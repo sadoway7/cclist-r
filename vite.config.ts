@@ -8,13 +8,13 @@ export default defineConfig({
     host: '0.0.0.0', // Correctly allow your domain
     port: 4173,
     strictPort: true,
-    allowedHosts: ['test.sadoway.ca', 'cc2.sadoway.ca'],
+    allowedHosts: ['test.sadoway.ca', 'cc2.sadoway.ca', 'www.ceramicscanada.net'],
   },
   preview: {
     host: '0.0.0.0', // Correctly allow your domain for preview
     port: 4173, // Use the same port as the dev server
     strictPort: true,
-    allowedHosts: ['test.sadoway.ca', 'cc2.sadoway.ca'],
+    allowedHosts: ['test.sadoway.ca', 'cc2.sadoway.ca', 'www.ceramicscanada.net'],
   },
   optimizeDeps: {
     exclude: ['lucide-react'],
